@@ -11,22 +11,21 @@
 crea una variabile `userName`  
 apri un promt che chiede all utente `scrivi il tuo nome`  
 salva il prompt in userName
-stampa userName in console
+stampa userName nel tag appropriato
 
 #### 2 
 crea una variabile `userSurname`  
 apri un promt che chiede all utente `scrivi il tuo cognome`  
 salva il prompt in userSurname
-stampa userSurname in console
+stampa userSurname nel tag appropriato
 
 #### 3 
 crea una variabile `userFavColor`  
 apri un promt che chiede all utente `scrivi il tuo colore preferito`  
 salva il prompt in userFavColor
-stampa userFavColor in console
+stampa userFavColor nel tag appropriato
 
 #### 4
 crea una nuova variabile `newPassword`  
 salva in newPassword il valore ottenuto dalla concatenazione di: `userName` +  `userSurname` + `userFavColor` + 23  
-stampa newPassword in console  
-prendi il tag presente in pagina e modificane il contenuto (html o testo poi vedo) indicando la password generata con la variabile newPassword
+stampa newPassword nel tag appropriato in modo che sia visibile all'utente

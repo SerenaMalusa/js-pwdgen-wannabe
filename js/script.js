@@ -8,6 +8,8 @@ let resultPsw = document.getElementById('result');
 // individua e scrivi l'anno corrente in pagina
 let currentYear = new Date().getFullYear();
 resultYear.innerText = 'Siamo nell\'anno: ' + currentYear;
+// prendi solo le ultime cifre dell anno in corso
+const currentYearLastDigits = parseInt(currentYear) - 2000;
 
 /*
     1: Chiedi all'utente il suo nome :      
@@ -38,8 +40,7 @@ resultColor.innerText = `Colore preferito: ${userFavColor}`;
     4: scrivi sulla pagina nomecognomecolorepreferito23 
 */
 // crea una nuova variabile `newPassword`, salva in newPassword il valore ottenuto dalla concatenazione di: `userName` +  `userSurname` + `userFavColor` + 23  
-const currentYearLastDigit = parseInt(currentYear) - 2000;
-const newPassword = userName + userSurname + userFavColor + currentYearLastDigit;
+const newPassword = userName + userSurname + userFavColor + currentYearLastDigits;
 // stampa newPassword nel tag appropriato
 result.innerHTML = `
                     Grazie per aver condiviso con noi queste informazioni. <br />

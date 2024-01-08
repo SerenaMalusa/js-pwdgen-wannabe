@@ -12,10 +12,10 @@ resultYear.innerText = 'Siamo nell\'anno: ' + currentYear;
 /*
     1: Chiedi all'utente il suo nome :      
 */
-//crea una variabile `userName`, apri un promt che chiede all utente `scrivi il tuo nome`,salva il prompt in userName
+// crea una variabile `userName`, apri un promt che chiede all utente `scrivi il tuo nome`,salva il prompt in userName
 const userName = prompt('Scrivi il tuo nome', 'nome');
 
-//      stampa userName nel tag appropriato
+// stampa userName nel tag appropriato
 resultName.innerText = `Nome:  ${userName}`;
 
 /* 
@@ -23,7 +23,7 @@ resultName.innerText = `Nome:  ${userName}`;
 */
 // crea una variabile `userSurname`, apri un promt che chiede all utente `scrivi il tuo cognome`, salva il prompt in userSurname
 const userSurname = prompt('Scrivi il tuo cognome', 'cognome');
-//      stampa userSurname nel tag appropriato
+//stampa userSurname nel tag appropriato
 resultSurname.innerText = `Cognome:  ${userSurname}`;
 
 /*
@@ -31,7 +31,7 @@ resultSurname.innerText = `Cognome:  ${userSurname}`;
 */
 // crea una variabile `userFavColor`, apri un promt che chiede all utente `scrivi il tuo colore preferito`, salva il prompt in userFavColor
 const userFavColor = prompt('Scrivi il tuo colore preferito', 'colorepreferito');
-//      stampa userFavColor nel tag appropriato
+// stampa userFavColor nel tag appropriato
 resultColor.innerText = `Colore preferito: ${userFavColor}`;
 
 /* 
@@ -39,7 +39,7 @@ resultColor.innerText = `Colore preferito: ${userFavColor}`;
 */
 // crea una nuova variabile `newPassword`, salva in newPassword il valore ottenuto dalla concatenazione di: `userName` +  `userSurname` + `userFavColor` + 23  
 const newPassword = userName + userSurname + userFavColor + currentYear;
-//      stampa newPassword nel tag appropriato
+// stampa newPassword nel tag appropriato
 result.innerHTML = `
                     Grazie per aver condiviso con noi queste informazioni. <br />
                     La nuova password che abbiamo generato per te è: <br />

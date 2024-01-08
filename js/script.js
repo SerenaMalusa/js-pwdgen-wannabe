@@ -1,4 +1,4 @@
-/* VARIABILI */
+/* prendi gli elementi dell html tramite id */
 let resultName = document.getElementById('name');
 let resultSurname = document.getElementById('surname');
 let resultColor = document.getElementById('color');

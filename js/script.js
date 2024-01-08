@@ -38,7 +38,8 @@ resultColor.innerText = `Colore preferito: ${userFavColor}`;
     4: scrivi sulla pagina nomecognomecolorepreferito23 
 */
 // crea una nuova variabile `newPassword`, salva in newPassword il valore ottenuto dalla concatenazione di: `userName` +  `userSurname` + `userFavColor` + 23  
-const newPassword = userName + userSurname + userFavColor + currentYear;
+const currentYearLastDigit = parseInt(currentYear) - 2000;
+const newPassword = userName + userSurname + userFavColor + currentYearLastDigit;
 // stampa newPassword nel tag appropriato
 result.innerHTML = `
                     Grazie per aver condiviso con noi queste informazioni. <br />
